@@ -7,4 +7,9 @@ Cancer is a fatal illness often caused by genetic disorder aggregation and a va-
 
 We will try to detect Breast cancer from data set by implementing CNN. First,we will try to improve the performance of the net by changing the number of layers and the parameters itself. Second, we would like to check if a trained net can perform better results for other type of cancer.
 
-the following images represent each class from the data set:
+## Datasets
+The following images represent each class from the data set:
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" />
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" />
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" />
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" />
