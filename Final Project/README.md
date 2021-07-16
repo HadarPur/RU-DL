@@ -9,10 +9,10 @@ We will try to detect Breast cancer from data set by implementing CNN. First,we 
 
 ## Datasets
 The following images represent each class from the data set:
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" alt="drawing" width="200"/>
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" alt="drawing" width="200"/>
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" alt="drawing" width="200"/>
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" width="200"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" alt="drawing" style="width:200px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" alt="drawing" style="width:200px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" alt="drawing" style="width:200px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" style="width:200px;"/>
 
 ## Design
 First, we divided the following labels data (0/1 , sick / not sick) that contain 78786 images of breast cancer and 198738 images of health breast into training set and test set. The training set contained randomly 80 percentage of the total images (158990-health and 63029-sick) and 20 percentage of the total images for the test set (39748 - health and 63029-sick). The project contains two part :
