@@ -9,10 +9,10 @@ We will try to detect Breast cancer from data set by implementing CNN. First,we 
 
 ## Datasets
 The following images represent each class from the data set:
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" alt="drawing" style="width:200px;"/>
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" alt="drawing" style="width:200px;"/>
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" alt="drawing" style="width:200px;"/>
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" style="width:200px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" alt="drawing" style="width:150px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" alt="drawing" style="width:150px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" alt="drawing" style="width:150px;"/>
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" style="width:150px;"/>
 
 ## Design
 First, we divided the following labels data (0/1 , sick / not sick) that contain 78786 images of breast cancer and 198738 images of health breast into training set and test set. The training set contained randomly 80 percentage of the total images (158990-health and 63029-sick) and 20 percentage of the total images for the test set (39748 - health and 63029-sick). The project contains two part :
@@ -20,7 +20,7 @@ First, we divided the following labels data (0/1 , sick / not sick) that contain
 2. Check if by using transfer learning we can improve the performance of the net
 At the first part , we based on exist algorithm [1] for breast cancer detection. In our algorithm we used linear net as shown in fig 5 instead of batch normalization and check the influence of number of layers on the performance.
 
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%205.png" />
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%205.png" alt="drawing" style="width:150px;"/>
 
 At the second part we used the Pre-trained net of skin cancer and then switch to train it on data set of breast cancer.
 
@@ -28,12 +28,12 @@ At the second part we used the Pre-trained net of skin cancer and then switch to
 ### Affect of number of layers on the accuracy
 We change the number of the layers in order to check what is the affect on the accuracy. The following graph shows the train/test loss Vs. the epochs. As we can see in fig 7, for 3 layers the test loss decrease and then increase. It can hint that we reach to over fit even though that the accuracy of the 3 cases is pretty much the same 87-88 percentage we decided to use the 2 layers net and use it also in the transfer learning.
 
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%206.png" />
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%206.png" alt="drawing" style="width:150px;"/>
 
 ### Transfer learning
 By using transfer learning we don’t observe any improvement in the accuracy (86 percentage) but we observed improvement in the running time.
 
-<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%207.png" />
+<img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%207.png" alt="drawing" style="width:150px;"/>
 
 ## Challenges
 The main challenge was to find data set in a proper size that is not too big and not too small for our project. Eventually we decided to work with 2 data sets that one of them - the breast cancer data set is very big and the second one - the skin cancer data set is too Small. It may lead to incorrect result because we perform the pre train first on the small data set and then did the transfer learning for the big data set.only after discussion with Kfir we understood that we should use it differently.
