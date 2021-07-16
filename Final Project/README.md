@@ -9,9 +9,13 @@ We will try to detect Breast cancer from data set by implementing CNN. First,we 
 
 ## Datasets
 The following images represent each class from the data set:
+
 <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" alt="drawing" style="width:150px;"/>
+
 <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" alt="drawing" style="width:150px;"/>
+
 <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" alt="drawing" style="width:150px;"/>
+
 <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" style="width:150px;"/>
 
 ## Design
