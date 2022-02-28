@@ -5,11 +5,15 @@ Rotem Feinblat, Hadar Pur
 Submitted as final project report for the Deep Learning course, Reichman University, 2020
 
 ## Introduction
-Cancer is a fatal illness often caused by genetic disorder aggregation and a variety of pathological changes. Cancerous cells are abnormal areas often growing in any part of human body that are life-threatening. Cancer also known as tumor must be quickly and correctly detected in the initial stage to identify what might be beneficial for its cure. Even though modality has different considerations, such as complicated history, improper diagnostics and treatment that are main causes of deaths. The first goal of the project is to detect breast cancer using deep learning technique. Second goal of the project was to train a Neural network on breast cancer and check how it affect on the performance of other type of cancer. Finally, challenges are also highlighted for possible future work.
+Cancer is a fatal illness often caused by genetic disorder aggregation and a variety of pathological changes. Cancerous cells are abnormal areas often growing in any part of human body that are life-threatening. Cancer also known as tumor must be quickly and correctly detected in the initial stage to identify what might be beneficial for its cure. Even though modality has different considerations, such as complicated history, improper diagnostics and treatment that are main causes of deaths. 
+
+## Solution
+### General approach
+The first goal of the project is to detect breast cancer using deep learning technique. Second goal of the project was to train a Neural network on breast cancer and check how it affect on the performance of other type of cancer. Finally, challenges are also highlighted for possible future work.
 
 We will try to detect Breast cancer from data set by implementing CNN. First,we will try to improve the performance of the net by changing the number of layers and the parameters itself. Second, we would like to check if a trained net can perform better results for other type of cancer.
 
-## Datasets
+### Datasets
 The following images represent each class from the data set:
 
 <p align="center">
@@ -28,7 +32,7 @@ The following images represent each class from the data set:
   <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" width="700"/>
 </p>
 
-## Design
+### Design
 First, we divided the following labels data (0/1 , sick / not sick) that contain 78786 images of breast cancer and 198738 images of health breast into training set and test set. The training set contained randomly 80 percentage of the total images (158990-health and 63029-sick) and 20 percentage of the total images for the test set (39748 - health and 63029-sick). The project contains two part :
 1. Check the affect of number of layers on the performance of the net
 2. Check if by using transfer learning we can improve the performance of the net
