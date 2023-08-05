@@ -17,19 +17,19 @@ We will try to detect Breast cancer from data set by implementing CNN. First,we 
 The following images represent each class from the data set:
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%201.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%201.png" alt="drawing" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%202.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%202.png" alt="drawing" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%203.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%203.png" alt="drawing" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%204.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%204.png" alt="drawing" width="700"/>
 </p>
 
 ### Design
@@ -39,7 +39,7 @@ First, we divided the following labels data (0/1 , sick / not sick) that contain
 At the first part , we based on exist algorithm [1] for breast cancer detection. In our algorithm we used linear net as shown in fig 5 instead of batch normalization and check the influence of number of layers on the performance.
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%205.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%205.png" alt="drawing" width="700"/>
 </p>
 
 At the second part we used the Pre-trained net of skin cancer and then switch to train it on data set of breast cancer.
@@ -49,7 +49,7 @@ At the second part we used the Pre-trained net of skin cancer and then switch to
 We change the number of the layers in order to check what is the affect on the accuracy. The following graph shows the train/test loss Vs. the epochs. As we can see in fig 7, for 3 layers the test loss decrease and then increase. It can hint that we reach to over fit even though that the accuracy of the 3 cases is pretty much the same 87-88 percentage we decided to use the 2 layers net and use it also in the transfer learning.
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%206.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%206.png" alt="drawing" width="700"/>
 </p>
 
 
@@ -57,7 +57,7 @@ We change the number of the layers in order to check what is the affect on the a
 By using transfer learning we don’t observe any improvement in the accuracy (86 percentage) but we observed improvement in the running time.
 
 <p align="center">
-  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Final%20Project/Figures/Figure%207.png" alt="drawing" width="700"/>
+  <img src="https://github.com/HadarPur/DeepLearningIDC/blob/main/Figures/Figure%207.png" alt="drawing" width="700"/>
 </p>
 
 
